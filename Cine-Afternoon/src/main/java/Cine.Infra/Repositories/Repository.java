@@ -8,11 +8,9 @@ import java.util.function.Predicate;
 
 public class Repository<T> implements IRepository<T> {
     private DbContext context = null;
-    private final Class<T> entityType;
 
     public Repository(DbContext context) {
         this.context = context;
-        this.entityType = entityType;
     }
 
     @Override
