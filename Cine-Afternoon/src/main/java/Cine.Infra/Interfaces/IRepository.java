@@ -13,6 +13,4 @@ public interface IRepository<T> {
     void update(T entity);
 
     void delete(T entity);
-
-    int count();
 }
