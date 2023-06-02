@@ -37,9 +37,4 @@ public class Repository<T> implements IRepository<T> {
     public void delete(T entity) {
         throw new RuntimeException();
     }
-
-    @Override
-    public int count() {
-        throw new RuntimeException();
-    }
 }
